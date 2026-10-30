@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Rajdhani', sans-serif;
+    --font-gaming: 'Chakra Petch', sans-serif;
+  }
+
+  body {
+    background-color: #08090d;
+    color: #f3f4f6;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    min-height: 100vh;
+  }
+}
+
+.font-gaming {
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+.font-display {
+  font-family: 'Rajdhani', sans-serif;
+}
+
+/* Neon & Cyber Glows */
+.glow-red {
+  box-shadow: 0 0 25px -4px rgba(239, 68, 68, 0.5), 0 0 10px -2px rgba(239, 68, 68, 0.3);
+}
+
+.glow-red-sm {
+  box-shadow: 0 0 12px -2px rgba(239, 68, 68, 0.45);
+}
+
+.glow-red-text {
+  text-shadow: 0 0 12px rgba(239, 68, 68, 0.7);
+}
+
+.glow-gold {
+  box-shadow: 0 0 20px -3px rgba(245, 158, 11, 0.45);
+}
+
+.glow-cyan {
+  box-shadow: 0 0 20px -3px rgba(6, 182, 212, 0.45);
+}
+
+/* Cyber Grid background */
+.bg-cyber-grid {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+                    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+.bg-radial-vignette {
+  background: radial-gradient(circle at 50% 0%, rgba(220, 38, 38, 0.18) 0%, rgba(8, 9, 13, 0) 70%);
+}
+
+/* Custom esports scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0d0f17;
+}
+::-webkit-scrollbar-thumb {
+  background: #272d3f;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ef4444;
+}
+
+/* Diagonal clip corners for gaming cards */
+.clip-gaming-corner {
+  clip-path: polygon(0 0, calc(100% - 14px) 0, 100% 14px, 100% 100%, 14px 100%, 0 calc(100% - 14px));
+}
+
+.clip-badge {
+  clip-path: polygon(8px 0, 100% 0, calc(100% - 8px) 100%, 0 100%);
+}

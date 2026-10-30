@@ -1,0 +1,8 @@
+{
+  "name": "MONEY TOURNAMENT - Free Fire Esports",
+  "description": "Compete in Free Fire India & FF MAX esports tournaments. Win real cash prizes in Battle Royale, Clash Squad, Lone Wolf, 1v1, 2v2 and 4v4 matches with instant UPI withdrawals and live room credentials.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

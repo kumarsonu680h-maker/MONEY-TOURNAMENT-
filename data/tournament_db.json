@@ -1,0 +1,692 @@
+{
+  "settings": {
+    "upiId": "moneytournament.merchant@okaxis",
+    "upiMerchantName": "MONEY TOURNAMENT ESPORTS",
+    "minDeposit": 10,
+    "minWithdrawal": 50,
+    "bonusPercentPerJoin": 10,
+    "referralBonusReferee": 25,
+    "referralBonusReferrer": 15,
+    "depositsPaused": false,
+    "manualVerificationMode": true,
+    "telegramSupportLink": "https://t.me/moneytournament_official",
+    "whatsappSupportNumber": "+919876543210",
+    "fairPlayPledge": "Zero tolerance for emulators, hacks, headshot scripts, or modified APKs. Instant ban and prize forfeit.",
+    "legalDisclaimer": "Skill gaming platform complying with Indian IT Act and Public Gambling Act exemptions. Restricted to 18+ players outside prohibited states (Assam, Odisha, Telangana, Andhra Pradesh, Nagaland, Sikkim)."
+  },
+  "banners": [
+    {
+      "id": "banner-1",
+      "title": "FREE FIRE INDIA & MAX CHAMPIONSHIP",
+      "subtitle": "Daily ₹10,000+ Prize Pools • Instant UPI Payouts",
+      "imageUrl": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1200&q=80",
+      "badgeText": "FEATURED",
+      "targetTab": "matches",
+      "active": true
+    },
+    {
+      "id": "banner-2",
+      "title": "DAILY ₹0 FREE ENTRY MEGA CUPS",
+      "subtitle": "Zero investment, Win Real Cash to your wallet!",
+      "imageUrl": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=1200&q=80",
+      "badgeText": "FREE ENTRY",
+      "targetTab": "matches",
+      "active": true
+    },
+    {
+      "id": "banner-3",
+      "title": "REFER FRIENDS & EARN ₹25 BONUS",
+      "subtitle": "Share your code. Earn instantly on their first match join!",
+      "imageUrl": "https://images.unsplash.com/photo-1563089145-599997674d42?auto=format&fit=crop&w=1200&q=80",
+      "badgeText": "BONUS CASH",
+      "targetTab": "profile",
+      "active": true
+    }
+  ],
+  "announcements": [
+    {
+      "id": "ann-1",
+      "title": "🚀 Room ID distribution starts 15 mins before match!",
+      "content": "Make sure your Free Fire game is updated. Emulators are strictly prohibited.",
+      "type": "info",
+      "active": true,
+      "createdAt": "2026-10-30T07:36:21.510Z"
+    },
+    {
+      "id": "ann-2",
+      "title": "⚡ Instant UPI Withdrawals Live 24/7",
+      "content": "Winning cash can be transferred to Google Pay, PhonePe, Paytm within 5 minutes.",
+      "type": "event",
+      "active": true,
+      "createdAt": "2026-10-30T07:36:21.510Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "user-1",
+      "mobile": "9876543210",
+      "name": "Vikas Kumar",
+      "ign": "亗 ʀᴅx • ᴋɪʟʟᴇʀ 亗",
+      "ffUid": "2849182371",
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=FreeFireWarrior",
+      "role": "player",
+      "wallet": {
+        "depositBalance": 1250,
+        "winningBalance": 220,
+        "bonusBalance": 50,
+        "totalBalance": 1520
+      },
+      "stats": {
+        "matchesPlayed": 28,
+        "matchesWon": 14,
+        "totalKills": 102,
+        "totalEarned": 4850,
+        "winRate": 50
+      },
+      "kyc": {
+        "status": "verified",
+        "fullName": "Vikas Kumar Mandal",
+        "docType": "Aadhaar",
+        "docNumber": "XXXX-XXXX-8912",
+        "state": "Bihar",
+        "is18Plus": true,
+        "submittedAt": "2026-10-15T10:00:00.000Z",
+        "reviewedAt": "2026-10-15T11:30:00.000Z",
+        "remarks": "Verified successfully. Age 18+ confirmed."
+      },
+      "referralCode": "MT-7788",
+      "isBanned": false,
+      "createdAt": "2026-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "user-admin",
+      "mobile": "9999999999",
+      "name": "Super Admin",
+      "ign": "亗 MT • FOUNDER 亗",
+      "ffUid": "1000000001",
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=AdminVikas",
+      "role": "super_admin",
+      "wallet": {
+        "depositBalance": 5000,
+        "winningBalance": 12000,
+        "bonusBalance": 500,
+        "totalBalance": 17500
+      },
+      "stats": {
+        "matchesPlayed": 50,
+        "matchesWon": 40,
+        "totalKills": 250,
+        "totalEarned": 25000,
+        "winRate": 80
+      },
+      "kyc": {
+        "status": "verified",
+        "fullName": "Head Administrator",
+        "docType": "PAN",
+        "docNumber": "ABCDE1234F",
+        "state": "Delhi",
+        "is18Plus": true,
+        "submittedAt": "2026-09-01T00:00:00.000Z",
+        "reviewedAt": "2026-09-01T00:00:00.000Z"
+      },
+      "referralCode": "ADMIN-01",
+      "isBanned": false,
+      "createdAt": "2026-09-01T00:00:00.000Z"
+    },
+    {
+      "id": "user-manager",
+      "mobile": "8888888888",
+      "name": "Match Coordinator",
+      "ign": "亗 MT • REFEREE 亗",
+      "ffUid": "1000000002",
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=ManagerOp",
+      "role": "tournament_manager",
+      "wallet": {
+        "depositBalance": 200,
+        "winningBalance": 500,
+        "bonusBalance": 100,
+        "totalBalance": 800
+      },
+      "stats": {
+        "matchesPlayed": 10,
+        "matchesWon": 6,
+        "totalKills": 35,
+        "totalEarned": 1800,
+        "winRate": 60
+      },
+      "kyc": {
+        "status": "verified",
+        "fullName": "Match Coordinator",
+        "docType": "Aadhaar",
+        "docNumber": "XXXX-XXXX-4422",
+        "state": "Maharashtra",
+        "is18Plus": true
+      },
+      "referralCode": "MOD-99",
+      "isBanned": false,
+      "createdAt": "2026-09-15T00:00:00.000Z"
+    },
+    {
+      "id": "user-2",
+      "mobile": "9811223344",
+      "name": "Aditya Raj",
+      "ign": "⚡ VIPER_GOD ⚡",
+      "ffUid": "1928374650",
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=ViperGod",
+      "role": "player",
+      "wallet": {
+        "depositBalance": 50,
+        "winningBalance": 1840,
+        "bonusBalance": 20,
+        "totalBalance": 1910
+      },
+      "stats": {
+        "matchesPlayed": 42,
+        "matchesWon": 25,
+        "totalKills": 168,
+        "totalEarned": 12400,
+        "winRate": 60
+      },
+      "kyc": {
+        "status": "verified",
+        "is18Plus": true,
+        "fullName": "Aditya Raj"
+      },
+      "referralCode": "VIPER-01",
+      "isBanned": false,
+      "createdAt": "2026-09-20T00:00:00.000Z"
+    },
+    {
+      "id": "user-3",
+      "mobile": "9822334455",
+      "name": "Rohan Sharma",
+      "ign": "ᴛᴏxɪᴄ • sɴɪᴘᴇʀ",
+      "ffUid": "7788990011",
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=ToxicSniper",
+      "role": "player",
+      "wallet": {
+        "depositBalance": 100,
+        "winningBalance": 980,
+        "bonusBalance": 30,
+        "totalBalance": 1110
+      },
+      "stats": {
+        "matchesPlayed": 34,
+        "matchesWon": 18,
+        "totalKills": 120,
+        "totalEarned": 8900,
+        "winRate": 53
+      },
+      "kyc": {
+        "status": "verified",
+        "is18Plus": true
+      },
+      "referralCode": "TOXIC-77",
+      "isBanned": false,
+      "createdAt": "2026-09-25T00:00:00.000Z"
+    },
+    {
+      "id": "user-4",
+      "mobile": "9833445566",
+      "name": "Aman Verma",
+      "ign": "AJJU_ARMY_99",
+      "ffUid": "5544332211",
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=AjjuFan",
+      "role": "player",
+      "wallet": {
+        "depositBalance": 80,
+        "winningBalance": 650,
+        "bonusBalance": 10,
+        "totalBalance": 740
+      },
+      "stats": {
+        "matchesPlayed": 30,
+        "matchesWon": 15,
+        "totalKills": 94,
+        "totalEarned": 7200,
+        "winRate": 50
+      },
+      "kyc": {
+        "status": "verified",
+        "is18Plus": true
+      },
+      "referralCode": "AJJU-99",
+      "isBanned": false,
+      "createdAt": "2026-09-28T00:00:00.000Z"
+    }
+  ],
+  "tournaments": [],
+  "transactions": [
+    {
+      "id": "tx-1793350904193",
+      "userId": "user-1",
+      "type": "MATCH_REFUND",
+      "amount": 100,
+      "balanceBefore": 1420,
+      "balanceAfter": 1520,
+      "status": "SUCCESS",
+      "paymentMethod": "WALLET",
+      "remarks": "Withdrawal of ₹100 rejected and refunded to Winning Balance: UPI handle not active / bank rejected",
+      "createdAt": "2026-10-30T09:01:44.193Z"
+    },
+    {
+      "id": "tx-1793350899776",
+      "userId": "user-1",
+      "type": "WITHDRAWAL",
+      "amount": 100,
+      "balanceBefore": 1520,
+      "balanceAfter": 1420,
+      "status": "REJECTED",
+      "paymentMethod": "UPI",
+      "upiId": "invalid_account@oksbi",
+      "remarks": "Withdrawal rejected: UPI handle not active / bank rejected (Refunded to winning balance)",
+      "createdAt": "2026-10-30T09:01:39.776Z"
+    },
+    {
+      "id": "tx-1793350869417",
+      "userId": "user-1",
+      "type": "WITHDRAWAL",
+      "amount": 100,
+      "balanceBefore": 1620,
+      "balanceAfter": 1520,
+      "status": "SUCCESS",
+      "paymentMethod": "UPI",
+      "upiId": "vikas@paytm",
+      "remarks": "Withdrawal paid via UPI (Ref/UTR: UPI491820491823)",
+      "createdAt": "2026-10-30T09:01:09.417Z",
+      "utrNumber": "UPI491820491823",
+      "approvedBy": "user-admin"
+    },
+    {
+      "id": "tx-1793350848121",
+      "userId": "user-1",
+      "type": "DEPOSIT",
+      "amount": 500,
+      "balanceBefore": 1620,
+      "balanceAfter": 1620,
+      "status": "REJECTED",
+      "paymentMethod": "UPI",
+      "utrNumber": "fake99998888",
+      "remarks": "Deposit rejected by admin: UTR not found in bank statement",
+      "createdAt": "2026-10-30T09:00:48.121Z"
+    },
+    {
+      "id": "tx-1793350825573",
+      "userId": "user-1",
+      "type": "DEPOSIT",
+      "amount": 100,
+      "balanceBefore": 1520,
+      "balanceAfter": 1620,
+      "status": "SUCCESS",
+      "paymentMethod": "UPI",
+      "utrNumber": "987612345678",
+      "remarks": "Deposit verified and approved by admin (UTR: 987612345678)",
+      "createdAt": "2026-10-30T09:00:25.573Z",
+      "approvedBy": "user-admin"
+    },
+    {
+      "id": "tx-1793345957763",
+      "userId": "user-1",
+      "type": "DEPOSIT",
+      "amount": 1000,
+      "balanceBefore": 520,
+      "balanceAfter": 1520,
+      "status": "SUCCESS",
+      "paymentMethod": "UPI",
+      "utrNumber": "9632674578",
+      "upiId": "moneytournament.merchant@okaxis",
+      "remarks": "Instant UPI Deposit verified (UTR: 9632674578)",
+      "createdAt": "2026-10-30T07:39:17.763Z"
+    },
+    {
+      "id": "tx-1001",
+      "userId": "user-1",
+      "type": "DEPOSIT",
+      "amount": 200,
+      "balanceBefore": 0,
+      "balanceAfter": 200,
+      "status": "SUCCESS",
+      "paymentMethod": "UPI",
+      "utrNumber": "428910481928",
+      "remarks": "Added money via Google Pay UPI",
+      "createdAt": "2026-10-28T07:36:21.510Z"
+    },
+    {
+      "id": "tx-1002",
+      "userId": "user-1",
+      "type": "MATCH_JOIN",
+      "amount": 25,
+      "balanceBefore": 200,
+      "balanceAfter": 175,
+      "status": "SUCCESS",
+      "paymentMethod": "WALLET",
+      "matchId": "match-100",
+      "remarks": "Entry fee for Bermuda Squad Mega Battle #100",
+      "createdAt": "2026-10-29T06:36:21.510Z"
+    },
+    {
+      "id": "tx-1003",
+      "userId": "user-1",
+      "type": "MATCH_WINNING",
+      "amount": 640,
+      "balanceBefore": 175,
+      "balanceAfter": 815,
+      "status": "SUCCESS",
+      "paymentMethod": "WALLET",
+      "matchId": "match-100",
+      "remarks": "1st Rank + 7 Kills Prize for Bermuda Squad #100",
+      "createdAt": "2026-10-29T07:59:41.510Z"
+    },
+    {
+      "id": "tx-1004",
+      "userId": "user-1",
+      "type": "WITHDRAWAL",
+      "amount": 300,
+      "balanceBefore": 815,
+      "balanceAfter": 515,
+      "status": "SUCCESS",
+      "paymentMethod": "UPI",
+      "upiId": "vikas@okhdfcbank",
+      "remarks": "Withdrawal to UPI transferred successfully",
+      "createdAt": "2026-10-29T12:09:41.510Z",
+      "approvedBy": "user-admin"
+    },
+    {
+      "id": "tx-1005",
+      "userId": "user-1",
+      "type": "REFERRAL_BONUS",
+      "amount": 25,
+      "balanceBefore": 515,
+      "balanceAfter": 540,
+      "status": "SUCCESS",
+      "paymentMethod": "BONUS",
+      "remarks": "Referral reward from friend registration",
+      "createdAt": "2026-10-29T20:29:41.510Z"
+    }
+  ],
+  "withdrawals": [
+    {
+      "id": "wd-1793350899776",
+      "userId": "user-1",
+      "userName": "Vikas Kumar",
+      "userMobile": "9876543210",
+      "amount": 100,
+      "payoutMethod": "UPI",
+      "upiId": "invalid_account@oksbi",
+      "status": "REJECTED",
+      "requestTime": "2026-10-30T09:01:39.776Z",
+      "auditLog": [
+        {
+          "action": "CREATED",
+          "status": "PENDING",
+          "adminId": "SYSTEM",
+          "adminName": "Player Request",
+          "timestamp": "2026-10-30T09:01:39.776Z",
+          "remarks": "Withdrawal request for ₹100 submitted via UPI"
+        },
+        {
+          "action": "REJECTED",
+          "status": "REJECTED",
+          "adminId": "user-admin",
+          "adminName": "Super Admin",
+          "timestamp": "2026-10-30T09:01:44.192Z",
+          "remarks": "Rejected by admin: UPI handle not active / bank rejected. Balance refunded."
+        }
+      ],
+      "processedTime": "2026-10-30T09:01:44.192Z",
+      "processedBy": "user-admin",
+      "rejectionReason": "UPI handle not active / bank rejected",
+      "updatedAt": "2026-10-30T09:01:44.192Z"
+    },
+    {
+      "id": "wd-1793350869416",
+      "userId": "user-1",
+      "userName": "Vikas Kumar",
+      "userMobile": "9876543210",
+      "amount": 100,
+      "payoutMethod": "UPI",
+      "upiId": "vikas@paytm",
+      "status": "SUCCESSFUL",
+      "requestTime": "2026-10-30T09:01:09.416Z",
+      "auditLog": [
+        {
+          "action": "CREATED",
+          "status": "PENDING",
+          "adminId": "SYSTEM",
+          "adminName": "Player Request",
+          "timestamp": "2026-10-30T09:01:09.416Z",
+          "remarks": "Withdrawal request for ₹100 submitted via UPI"
+        },
+        {
+          "action": "APPROVED",
+          "status": "APPROVED",
+          "adminId": "user-admin",
+          "adminName": "Super Admin",
+          "timestamp": "2026-10-30T09:01:13.646Z",
+          "remarks": "Approved for payout processing by Super Admin"
+        },
+        {
+          "action": "SET_PENDING",
+          "status": "PENDING",
+          "adminId": "user-admin",
+          "adminName": "Super Admin",
+          "timestamp": "2026-10-30T09:01:17.853Z",
+          "remarks": "Reverted to Pending status for further review"
+        },
+        {
+          "action": "SUCCESSFUL",
+          "status": "SUCCESSFUL",
+          "adminId": "user-admin",
+          "adminName": "Super Admin",
+          "timestamp": "2026-10-30T09:01:27.601Z",
+          "remarks": "Payment confirmed by admin via UPI",
+          "payoutUtr": "UPI491820491823"
+        }
+      ],
+      "approvedTime": "2026-10-30T09:01:13.646Z",
+      "approvedBy": "user-admin",
+      "updatedAt": "2026-10-30T09:01:27.601Z",
+      "processedTime": "2026-10-30T09:01:27.601Z",
+      "processedBy": "user-admin",
+      "payoutUtr": "UPI491820491823"
+    },
+    {
+      "id": "wd-201",
+      "userId": "user-1",
+      "userName": "Vikas Kumar",
+      "userMobile": "9876543210",
+      "amount": 300,
+      "payoutMethod": "UPI",
+      "upiId": "vikas@okhdfcbank",
+      "status": "TRANSFERRED",
+      "requestTime": "2026-10-29T11:36:21.510Z",
+      "processedTime": "2026-10-29T12:09:41.510Z",
+      "payoutUtr": "439901840192"
+    }
+  ],
+  "deposits": [
+    {
+      "id": "dep-1793350848120",
+      "userId": "user-1",
+      "userName": "Vikas Kumar",
+      "userMobile": "9876543210",
+      "amount": 500,
+      "utrNumber": "fake99998888",
+      "upiId": "moneytournament.merchant@okaxis",
+      "status": "REJECTED",
+      "credited": false,
+      "createdAt": "2026-10-30T09:00:48.120Z",
+      "remarks": "Rejected by admin Super Admin: UTR not found in bank statement",
+      "rejectedAt": "2026-10-30T09:00:51.934Z",
+      "rejectedBy": "user-admin",
+      "reviewedAt": "2026-10-30T09:00:51.934Z",
+      "rejectionReason": "UTR not found in bank statement"
+    },
+    {
+      "id": "dep-1793350825573",
+      "userId": "user-1",
+      "userName": "Vikas Kumar",
+      "userMobile": "9876543210",
+      "amount": 100,
+      "utrNumber": "987612345678",
+      "upiId": "moneytournament.merchant@okaxis",
+      "status": "APPROVED",
+      "credited": true,
+      "createdAt": "2026-10-30T09:00:25.573Z",
+      "remarks": "Verified and approved by admin Super Admin",
+      "verifiedAt": "2026-10-30T09:00:37.047Z",
+      "verifiedBy": "user-admin",
+      "reviewedAt": "2026-10-30T09:00:40.944Z",
+      "approvedAt": "2026-10-30T09:00:40.944Z",
+      "approvedBy": "user-admin"
+    }
+  ],
+  "supportTickets": [
+    {
+      "id": "ticket-1793351660891-emxto",
+      "userId": "user-admin",
+      "userName": "Super Admin",
+      "userMobile": "9999999999",
+      "subject": "Match Room Issue",
+      "category": "Match / Room ID",
+      "status": "in_progress",
+      "replies": [
+        {
+          "id": "reply-1793351660891-1",
+          "sender": "user",
+          "senderName": "Super Admin",
+          "message": "I need help with custom room password.",
+          "timestamp": "2026-10-30T09:14:20.891Z"
+        },
+        {
+          "id": "reply-1793351667530-lorr",
+          "sender": "admin",
+          "senderName": "Support Admin",
+          "message": "Room credentials will be posted 15 minutes before match start.",
+          "timestamp": "2026-10-30T09:14:27.530Z"
+        }
+      ],
+      "createdAt": "2026-10-30T09:14:20.891Z",
+      "updatedAt": "2026-10-30T09:14:27.530Z"
+    },
+    {
+      "id": "ticket-1",
+      "userId": "user-1",
+      "userName": "Vikas Kumar",
+      "userMobile": "9876543210",
+      "subject": "In-game Name change request",
+      "category": "Other",
+      "status": "resolved",
+      "replies": [
+        {
+          "id": "rep-1",
+          "sender": "user",
+          "senderName": "Vikas Kumar",
+          "message": "Can I change my IGN to 亗 ʀᴅx • ᴋɪʟʟᴇʀ 亗?",
+          "timestamp": "2026-10-29T07:36:21.510Z"
+        },
+        {
+          "id": "rep-2",
+          "sender": "admin",
+          "senderName": "Super Admin",
+          "message": "Sure! You can now edit your IGN directly in your Profile tab.",
+          "timestamp": "2026-10-29T09:23:01.510Z"
+        }
+      ],
+      "createdAt": "2026-10-29T07:36:21.510Z",
+      "updatedAt": "2026-10-29T09:23:01.510Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-1793350904193",
+      "userId": "user-1",
+      "title": "Withdrawal Request Rejected ⚠️",
+      "message": "₹100 has been refunded to your winning balance. Reason: UPI handle not active / bank rejected.",
+      "type": "wallet",
+      "isRead": false,
+      "createdAt": "2026-10-30T09:01:44.193Z"
+    },
+    {
+      "id": "notif-1793350887602",
+      "userId": "user-1",
+      "title": "₹100 Transferred to your UPI! 💰",
+      "message": "Payout successfully completed! Bank Reference / UTR: UPI491820491823.",
+      "type": "wallet",
+      "isRead": false,
+      "createdAt": "2026-10-30T09:01:27.602Z"
+    },
+    {
+      "id": "notif-1793350873647",
+      "userId": "user-1",
+      "title": "Withdrawal of ₹100 Approved! ⚡",
+      "message": "Your request has been approved and is queued for bank transfer. You will receive payout UTR shortly.",
+      "type": "wallet",
+      "isRead": false,
+      "createdAt": "2026-10-30T09:01:13.647Z"
+    },
+    {
+      "id": "notif-1793350851935",
+      "userId": "user-1",
+      "title": "Deposit Request Rejected ❌",
+      "message": "Deposit of ₹500 (UTR: fake99998888) could not be verified. Reason: UTR not found in bank statement.",
+      "type": "wallet",
+      "isRead": false,
+      "createdAt": "2026-10-30T09:00:51.935Z"
+    },
+    {
+      "id": "notif-1793350848121",
+      "userId": "user-1",
+      "title": "₹500 Deposit Request Submitted ⏳",
+      "message": "Your deposit (UTR: fake99998888) is Pending review. Our staff will verify the bank credit and update your wallet.",
+      "type": "wallet",
+      "isRead": false,
+      "createdAt": "2026-10-30T09:00:48.121Z"
+    },
+    {
+      "id": "notif-1793350840944",
+      "userId": "user-1",
+      "title": "₹100 Deposit Approved! ✅",
+      "message": "Payment verified by admin. ₹100 has been credited to your Deposit Wallet.",
+      "type": "wallet",
+      "isRead": false,
+      "createdAt": "2026-10-30T09:00:40.944Z"
+    },
+    {
+      "id": "notif-1793350825573",
+      "userId": "user-1",
+      "title": "₹100 Deposit Request Submitted ⏳",
+      "message": "Your deposit (UTR: 987612345678) is Pending review. Our staff will verify the bank credit and update your wallet.",
+      "type": "wallet",
+      "isRead": false,
+      "createdAt": "2026-10-30T09:00:25.573Z"
+    },
+    {
+      "id": "notif-1793345957764",
+      "userId": "user-1",
+      "title": "₹1000 Added to Wallet! 💳",
+      "message": "Deposit successful. Your new balance is ₹1520.",
+      "type": "wallet",
+      "isRead": false,
+      "createdAt": "2026-10-30T07:39:17.764Z"
+    },
+    {
+      "id": "notif-1",
+      "userId": "user-1",
+      "title": "Room ID & Password is LIVE! 🔑",
+      "message": "Room details for GRAND BERMUDA BATTLE ROYALE SQUAD #104 are now visible. Check your match card!",
+      "type": "match",
+      "isRead": false,
+      "createdAt": "2026-10-30T07:36:21.510Z"
+    },
+    {
+      "id": "notif-2",
+      "userId": "user-1",
+      "title": "₹640 Prize Credited! 🏆",
+      "message": "Congratulations on 1st place in Match #100. Prize has been credited to your Winning Balance.",
+      "type": "reward",
+      "isRead": true,
+      "createdAt": "2026-10-29T07:59:41.510Z"
+    }
+  ]
+}
